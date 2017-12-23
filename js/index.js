@@ -125,10 +125,10 @@ $(function () {
   audio.onclick = function(){
     if(music.paused){
       music.play();
-      this.style.backgroundImage = "url(./img/music.gif)";
+      this.style.backgroundImage = "url(./image/music.gif)";
     }else{
       music.pause();
-      this.style.backgroundImage = "url(./img/music.png)";
+      this.style.backgroundImage = "url(./image/music.png)";
     }
   };
 });
